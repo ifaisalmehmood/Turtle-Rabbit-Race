@@ -1,15 +1,19 @@
-turtle_steps = 1
-rabbit_steps = 100
+turtle_steps = 1  
+# Initialize the turtle's position to 1
+rabbit_steps = 100  
+# Initialize the rabbit's position to 100
 
+# The following loop will continue until the turtle reaches or surpasses the rabbit's position
 while turtle_steps <= rabbit_steps:
-turtle_steps += 1
-# turtle moves one step
-print("Turtle is at",
-turtle_steps,
-"and rabbit is at",
-rabbit_steps)
+    turtle_steps += 1  
+    # Increment the turtle's position by 1 (turtle moves one step)
+    print("Turtle is at", turtle_steps, "and rabbit is at", rabbit_steps)
+    # Print the current positions of the turtle and rabbit
 else:
-if turtle_steps > rabbit_steps:
-print("Turtle Won!")
-else:
-print("Rabbit Won!")
+    # This block is executed when the while loop condition becomes false
+    if turtle_steps > rabbit_steps:
+        print("Turtle Won!")  
+        # Print "Turtle Won!" if the turtle surpasses the rabbit's position
+    else:
+        print("Rabbit Won!")  
+        # Print "Rabbit Won!" if the turtle and rabbit have the same position

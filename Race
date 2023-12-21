@@ -1,0 +1,15 @@
+turtle_steps = 1
+rabbit_steps = 100
+
+while turtle_steps <= rabbit_steps:
+turtle_steps += 1
+# turtle moves one step
+print("Turtle is at",
+turtle_steps,
+"and rabbit is at",
+rabbit_steps)
+else:
+if turtle_steps > rabbit_steps:
+print("Turtle Won!")
+else:
+print("Rabbit Won!")
